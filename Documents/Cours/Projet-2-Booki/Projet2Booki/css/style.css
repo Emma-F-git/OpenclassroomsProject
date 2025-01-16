@@ -136,11 +136,15 @@ h1 {
 .filtre {
   display: flex;
   font-weight: bold;
+  align-items: center;
+}
+
+.filtre span {
+  padding: 12px;
+  margin-right: 12px;
 }
 
 .filtre p {
-  display: flex;
-  justify-content: center;
   border: 2.5px solid #e6e6e6c2;
   border-radius: 25px 25px 25px 25px;
   padding: 12px;
@@ -148,19 +152,7 @@ h1 {
   margin-right: 12px;
 }
 
-.fa-money-bill-wave {
-  margin-right: 10px;
-  font-size: 18px;
-}
-.fa-person {
-  margin-right: 10px;
-  font-size: 18px;
-}
-.fa-heart {
-  margin-right: 10px;
-  font-size: 18px;
-}
-.fa-fire {
+.filtre p i {
   margin-right: 10px;
   font-size: 18px;
 }
