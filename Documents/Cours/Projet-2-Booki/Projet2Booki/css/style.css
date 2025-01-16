@@ -98,11 +98,11 @@ h1 {
 }
 
 /***** Style pour l'icone localisation *****/
-.fa-solid {
+.fa-location-dot {
   padding: 10px;
   border: 1px solid #e6e6e6;
   background-color: #e6e6e6;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 14px 0px 0px 14px;
 }
 
 /***** Style pour la barre de recherche *****/
@@ -126,9 +126,26 @@ h1 {
   background-color: #0065fc;
   color: white;
   border: none;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 14px 14px 0px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/***** Style pour les filtres *****/
+.filtre {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.filtre p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 14px 14px 14px 14px;
+  padding: 12px;
+  cursor: pointer;
 }
 
 /****** Hebergements And Populaires ***********/
