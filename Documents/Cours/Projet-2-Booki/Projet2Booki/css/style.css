@@ -129,23 +129,44 @@ h1 {
   border-radius: 0px 14px 14px 0px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 15px;
 }
 
 /***** Style pour les filtres *****/
 .filtre {
   display: flex;
-  gap: 20px;
   font-weight: bold;
 }
 
 .filtre p {
   display: flex;
-  text-align: center;
   justify-content: center;
-  border: 1px solid #ccc;
-  border-radius: 14px 14px 14px 14px;
+  border: 2.5px solid #e6e6e6c2;
+  border-radius: 25px 25px 25px 25px;
   padding: 12px;
   cursor: pointer;
+  margin-right: 12px;
+}
+
+.fa-money-bill-wave {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.fa-person {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.fa-heart {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.fa-fire {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.filtre p:hover {
+  background-color: #bde0fe;
 }
 
 /****** Hebergements And Populaires ***********/
