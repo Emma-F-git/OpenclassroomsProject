@@ -16,8 +16,10 @@
 body {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
+/*Ajout du header*/
 nav {
   display: flex;
   flex-direction: row;
@@ -95,6 +97,7 @@ h1 {
 .search-bar div {
   display: flex;
   gap: 0;
+  align-items: center;
 }
 
 /***** Style pour l'icone localisation *****/
@@ -102,7 +105,7 @@ h1 {
   padding: 10px;
   border: 1px solid #e6e6e6;
   background-color: #e6e6e6;
-  border-radius: 14px 0px 0px 14px;
+  border-radius: 16px 0px 0px 16px;
 }
 
 /***** Style pour la barre de recherche *****/
@@ -137,6 +140,7 @@ h1 {
   display: flex;
   font-weight: bold;
   align-items: center;
+  margin-top: 1.3em;
 }
 
 .filtre span {
@@ -159,6 +163,10 @@ h1 {
 
 .filtre p:hover {
   background-color: #bde0fe;
+}
+
+.fa-circle-info {
+  margin-right: 12px;
 }
 
 /****** Hebergements And Populaires ***********/
