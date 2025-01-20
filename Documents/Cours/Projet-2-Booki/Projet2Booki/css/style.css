@@ -295,7 +295,7 @@ h1 {
 
 .activites .title {
   display: flex;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-top: 40px;
   font-size: 22px;
 }
@@ -310,7 +310,8 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-top: 33px;
-  align-content: space-between;
+  padding: 0px;
+  text-align: start;
 }
 
 .activites-cards img {
@@ -318,6 +319,10 @@ h1 {
   height: 350px;
   border-radius: 20px 20px 0px 0px;
   align-items: center;
+}
+
+.activites-cards .card-content {
+  margin-left: 20px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
