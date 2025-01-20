@@ -34,8 +34,25 @@ nav ul {
 }
 
 /* Ajoute un espace entre les éléments Hébergements et Activités */
-nav ul li {
+nav ul li a {
   margin-left: 90px;
+  position: relative;
+}
+
+/*** Barre en haut de Hébergements et Activités cachée ***/
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #007bff;
+}
+
+/*** Barre en haut de Hébergements et Activités visible au survol ***/
+nav ul li a:hover::before {
+  width: 100%;
 }
 
 /* Ajuste la taille du logo */
@@ -276,15 +293,16 @@ h1 {
 
 /****** Activités *******/
 
-.activites-title {
+.activites .title {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-left: 20px;
+  padding-top: 40px;
+  font-size: 22px;
 }
 
 .activites-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -297,7 +315,7 @@ h1 {
 
 .activites-cards img {
   width: 280px;
-  height: 300px;
+  height: 350px;
   border-radius: 20px 20px 0px 0px;
   align-items: center;
 }
