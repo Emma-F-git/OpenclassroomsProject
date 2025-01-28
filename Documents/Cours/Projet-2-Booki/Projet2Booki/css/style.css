@@ -164,7 +164,7 @@ h1 {
 }
 
 .filtre p {
-  border: 2.5px solid #c7c5c5c2;
+  border: 2px solid #c7c5c5c2;
   border-radius: 25px 25px 25px 25px;
   padding: 12px;
   cursor: pointer;
@@ -208,6 +208,10 @@ h1 {
   margin-top: 20px;
 }
 
+p.card-subtitle {
+  font-size: 14px;
+}
+
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
@@ -230,7 +234,7 @@ h1 {
 
 .hebergements-cards img {
   width: 100%;
-  height: 136px;
+  height: 124px;
   border-radius: 20px 20px 0px 0px;
   align-items: center;
 }
@@ -241,10 +245,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-}
-
-.hebergements-cards .card-subtitle {
-  margin: 0;
 }
 
 .hebergements-cards .card-rating {
@@ -350,7 +350,6 @@ h1 {
   flex-direction: column;
   list-style: none;
   padding-left: 0;
-  padding-bottom: 20px;
 }
 
 .list-footer h4 {
