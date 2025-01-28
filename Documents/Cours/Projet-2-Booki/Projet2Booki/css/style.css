@@ -81,6 +81,13 @@ h1 {
   font-size: 22px;
 }
 
+/**Mise en forme du titre**/
+.headline {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  line-height: 1em;
+}
+
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -126,13 +133,14 @@ h1 {
 
 /***** Style pour la barre de recherche *****/
 .search-input {
-  padding: 10px;
+  padding: 7.5px;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   border-left: 1px solid #e6e6e6;
   border-right: #0065fc;
   font-weight: bold;
   text-align: center;
+  font-size: 18px;
 }
 
 .search-input::placeholder {
@@ -141,14 +149,14 @@ h1 {
 
 /***** Style pour le bouton rechercher *****/
 .search-button {
-  padding: 10px 20px;
+  padding: 8.5px 20px;
   background-color: #0065fc;
   color: white;
   border: none;
   border-radius: 0px 14px 14px 0px;
   cursor: pointer;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /***** Style pour les filtres *****/
@@ -255,6 +263,7 @@ p.card-subtitle {
 .afficher-plus {
   margin-top: 20px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 /****** Populaires *******/
