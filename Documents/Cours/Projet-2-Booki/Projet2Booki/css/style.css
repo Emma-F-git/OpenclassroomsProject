@@ -379,6 +379,16 @@ p.card-subtitle {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /**Modification affichage filtres**/
+  .filtre {
+    display: block;
+  }
+
+  .filtre p {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
