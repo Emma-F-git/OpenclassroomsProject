@@ -194,7 +194,7 @@ h1 {
   background-color: #bde0fe;
 }
 
-.custom-icon-info {
+.fa-info {
   color: #0065fc;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
@@ -204,8 +204,8 @@ h1 {
   width: 24px;
   height: 24px;
   margin-right: 10px;
-  font-family: Times New Roman, serif;
   font-weight: bold;
+  font-size: 12px;
 }
 
 /****** Hebergements And Populaires ***********/
