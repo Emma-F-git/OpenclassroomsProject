@@ -182,6 +182,7 @@ h1 {
   padding: 12px;
   cursor: pointer;
   margin-right: 12px;
+  max-width: 150px;
 }
 
 .filtre p i {
@@ -380,8 +381,9 @@ p.card-subtitle {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   /**Modification affichage filtres**/
-  .filtre {
+  .filtre span {
     display: block;
+    width: 100%;
   }
 
   .filtre p {
@@ -460,6 +462,16 @@ p.card-subtitle {
     height: 40px;
     padding: 0;
     font-size: 80%;
+  }
+
+  /**Modification affichage filtres "Economique, Familial, Romantique, Nos pépites**/
+  .filtre span {
+    display: block;
+    width: 100%;
+  }
+
+  .filtre p {
+    min-width: 150px;
   }
 
   /**Modification cards populaires, activités, footer**/
