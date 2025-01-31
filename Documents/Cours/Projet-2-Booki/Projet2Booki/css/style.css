@@ -348,7 +348,10 @@ p.card-subtitle {
 }
 
 .activites-cards .card-content {
-  margin-left: 20px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
 }
 
 /****** Footer *******/
@@ -447,6 +450,12 @@ p.card-subtitle {
   }
 
   /**Modification affichage texte du filtre "rechercher" en loupe**/
+
+  .search-input {
+    margin-right: -3%;
+    max-width: 60%;
+  }
+
   .search-text {
     display: none;
   }
@@ -456,12 +465,12 @@ p.card-subtitle {
   }
 
   .search-button {
-    box-shadow: 0px 5px 2px #e6e6e6;
+    box-shadow: 0px 3px 2px #c1c1c1;
     border-radius: 30%;
     min-width: 40px;
     height: 40px;
     padding: 0;
-    font-size: 80%;
+    font-size: 95%;
   }
 
   /**Modification affichage filtres "Economique, Familial, Romantique, Nos pépites**/
