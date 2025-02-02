@@ -455,6 +455,17 @@ p.card-subtitle {
     justify-content: center;
     padding-top: 20px;
   }
+  nav ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 40px;
+    text-align: left;
+    margin: 0;
+  }
 
   /* Effet de soulignement Hébergements et Activités gris et bleu au survol */
   nav ul li a {
