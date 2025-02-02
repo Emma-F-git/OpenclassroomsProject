@@ -18,6 +18,8 @@ body {
   justify-content: center;
   margin-bottom: 2em;
   margin: 0;
+  max-width: 1440px;
+  min-width: 320px;
 }
 
 /*Ajout du header*/
@@ -64,6 +66,7 @@ nav ul li a:hover::before {
 .main-container {
   width: 100%;
   max-width: 1440px;
+  min-width: 320px;
   padding: 0 50px;
   box-sizing: border-box;
 }
@@ -454,20 +457,28 @@ p.card-subtitle {
   }
 
   /* Effet de soulignement Hébergements et Activités gris et bleu au survol */
+  nav ul li a {
+    position: relative;
+  }
+
+  /* Soulignement gris */
   nav ul li a::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    bottom: -17px;
+    width: 100vw;
     height: 2px;
     background-color: lightgray;
   }
 
+  /* Soulignement bleu au survol */
   nav ul li a:hover::after {
     background-color: blue;
   }
-  nav ul li a:hover::before {
+
+  /* Suppression de l'effet de surlignement bleu */
+  nav ul li a::before {
     content: none;
   }
 
