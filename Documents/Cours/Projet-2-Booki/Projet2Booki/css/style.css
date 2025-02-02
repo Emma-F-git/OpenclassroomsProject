@@ -403,13 +403,11 @@ p.card-subtitle {
 
   .hebergements {
     width: 100%;
-    order: 1; /* Passe après le bloc Populaires */
   }
 
   .populaires {
     width: 100%;
     margin-top: 50px;
-    order: -1; /* Passe avant le bloc Hébergements */
   }
 
   .populaires-cards {
@@ -527,6 +525,14 @@ p.card-subtitle {
 
   .filtre p {
     min-width: 150px;
+  }
+
+  /**Echange de place entre le bloc Populaires et Hébergements**/
+  .hebergements {
+    order: 1; /* Passe après le bloc Populaires */
+  }
+  .populaires {
+    order: -1; /* Passe avant le bloc Hébergements */
   }
 
   /**Modification cards populaires, activités, footer**/
