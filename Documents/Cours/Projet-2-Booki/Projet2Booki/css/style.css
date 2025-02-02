@@ -403,11 +403,13 @@ p.card-subtitle {
 
   .hebergements {
     width: 100%;
+    order: 1; /* Passe après le bloc Populaires */
   }
 
   .populaires {
     width: 100%;
     margin-top: 50px;
+    order: -1; /* Passe avant le bloc Hébergements */
   }
 
   .populaires-cards {
@@ -458,11 +460,11 @@ p.card-subtitle {
   nav ul {
     padding: 0;
     width: 100%;
+    gap: 50%;
   }
 
   nav ul li a {
     display: block;
-    padding: 10px 40px;
     text-align: left;
     margin: 0;
   }
