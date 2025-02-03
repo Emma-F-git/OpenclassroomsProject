@@ -470,9 +470,14 @@ p.card-subtitle {
     min-width: 100%;
   }
 
+  header nav ul li {
+    width: 50%;
+  }
+
   header nav ul li a {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   /* Effet de soulignement Hébergements et Activités gris et bleu au survol */
@@ -481,7 +486,7 @@ p.card-subtitle {
   }
 
   /* Soulignement gris */
-  nav ul li a {
+  nav ul li {
     border-bottom: 3px solid #f2f2f2;
   }
 
@@ -541,12 +546,16 @@ p.card-subtitle {
   }
 
   .filtre p {
-    min-width: 150px;
+    min-width: 155px;
   }
 
   /**Modification Hébergements et Populaires**/
   .hebergements-and-populaires section {
     border-radius: 0;
+  }
+
+  .hebergements-and-populaires #hebergements.hebergements {
+    background-color: inherit;
   }
 
   .activites-cards .card {
@@ -555,6 +564,10 @@ p.card-subtitle {
 
   .activites a {
     padding: 0.7rem 2rem;
+  }
+
+  .hebergements-cards .card {
+    width: 350px;
   }
 
   /**Echange de place entre le bloc Populaires et Hébergements**/
