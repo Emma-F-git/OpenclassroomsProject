@@ -22,6 +22,11 @@ body {
   min-width: 320px;
 }
 
+body,
+.main-container {
+  margin: auto;
+}
+
 /*Ajout du header*/
 nav {
   display: flex;
@@ -546,7 +551,8 @@ p.card-subtitle {
   }
 
   .filtre p {
-    min-width: 155px;
+    min-width: 30%;
+    justify-content: center;
   }
 
   /**Modification Hébergements et Populaires**/
