@@ -148,6 +148,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-size: 18px;
+  width: 11em;
 }
 
 .search-input::placeholder {
@@ -483,6 +484,8 @@ p.card-subtitle {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   /* Effet de soulignement Hébergements et Activités gris et bleu au survol */
@@ -511,8 +514,8 @@ p.card-subtitle {
     content: none;
   }
 
-  /**Ajout d'un padding sur le 1er bloc après le header  **/
-  .padding20px {
+  /**Ajout d'un padding**/
+  .info-group {
     padding: 0 20px;
   }
 
@@ -522,9 +525,14 @@ p.card-subtitle {
   }
 
   /**Modification affichage texte du filtre "rechercher" en loupe**/
+
+  .search-bar div {
+    justify-content: center;
+  }
+
   .search-input {
     margin-right: -3%;
-    max-width: 100%;
+    max-width: 75%;
   }
 
   .search-text {
@@ -545,6 +553,10 @@ p.card-subtitle {
   }
 
   /**Modification affichage filtres "Economique, Familial, Romantique, Nos pépites**/
+  .filtre {
+    justify-content: center;
+  }
+
   .filtre span {
     display: block;
     width: 100%;
@@ -564,16 +576,12 @@ p.card-subtitle {
     background-color: inherit;
   }
 
-  .activites-cards .card {
-    margin: 0;
-  }
-
-  .activites a {
-    padding: 0.7rem 2rem;
+  a {
+    width: 90%;
   }
 
   .hebergements-cards .card {
-    width: 350px;
+    width: 100%;
   }
 
   /**Echange de place entre le bloc Populaires et Hébergements**/
@@ -595,6 +603,7 @@ p.card-subtitle {
   .activites-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .container-footer {
