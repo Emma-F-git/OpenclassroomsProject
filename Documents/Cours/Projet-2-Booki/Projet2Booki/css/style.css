@@ -174,31 +174,40 @@ h1 {
 /***** Style pour les filtres *****/
 .filtre {
   display: flex;
-  font-weight: bold;
   align-items: center;
-  margin-top: 1.3em;
+  margin-top: 1.6em;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .filtre span {
-  margin-right: 12px;
+  font-size: 18px;
 }
 
-.filtre p {
+.filtre ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.filtre ul li {
   border: 2px solid #c7c5c5c2;
   border-radius: 25px 25px 25px 25px;
   padding: 12px;
   cursor: pointer;
   margin-right: 12px;
   max-width: 150px;
+  display: flex;
+  align-items: center;
 }
 
-.filtre p i {
+.filtre ul li i {
   margin-right: 10px;
   font-size: 18px;
 }
 
-.filtre p:hover {
+.filtre ul li:hover {
   background-color: #bde0fe;
 }
 
@@ -397,9 +406,9 @@ p.card-subtitle {
     width: 100%;
   }
 
-  .filtre p {
-    display: flex;
-    flex-wrap: nowrap;
+  .filtre ul {
+    padding: 0;
+    font-size: 16px;
   }
 
   .hebergements-and-populaires {
@@ -470,10 +479,10 @@ p.card-subtitle {
   }
 
   header nav ul {
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0;
     margin: 0;
-    min-width: 100%;
+    width: 100%;
   }
 
   header nav ul li {
@@ -491,6 +500,7 @@ p.card-subtitle {
   /* Effet de soulignement Hébergements et Activités gris et bleu au survol */
   nav ul li a {
     position: relative;
+    width: 100%;
   }
 
   /* Soulignement gris */
@@ -516,7 +526,7 @@ p.card-subtitle {
 
   /**Ajout d'un padding**/
   .info-group {
-    padding: 0 20px;
+    padding: 0 14px;
   }
 
   /**Modification espace pour le titre Trouvez votre hébergement**/
@@ -555,16 +565,20 @@ p.card-subtitle {
   /**Modification affichage filtres "Economique, Familial, Romantique, Nos pépites**/
   .filtre {
     justify-content: center;
+    align-items: center;
   }
 
-  .filtre span {
-    display: block;
-    width: 100%;
-  }
-
-  .filtre p {
-    min-width: 30%;
+  .filtre ul {
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .filtre ul li {
+    width: 35%;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 
   /**Modification Hébergements et Populaires**/
