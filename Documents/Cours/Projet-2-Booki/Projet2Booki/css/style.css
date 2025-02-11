@@ -128,27 +128,31 @@ h1 {
 .search-bar div {
   display: flex;
   align-items: center;
+  height: 49px;
 }
 
 /***** Style pour l'icone localisation *****/
 .fa-location-dot {
-  padding: 10px;
-  border: 1px solid #e6e6e6;
-  background-color: #e6e6e6;
-  border-radius: 16px 0px 0px 16px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+  width: 49px;
 }
 
 /***** Style pour la barre de recherche *****/
 .search-input {
-  padding: 7.5px;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
-  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
   border-right: #0065fc;
   font-weight: bold;
   text-align: center;
   font-size: 18px;
   width: 11em;
+  height: 100%;
 }
 
 .search-input::placeholder {
@@ -161,10 +165,12 @@ h1 {
   background-color: #0065fc;
   color: white;
   border: none;
-  border-radius: 0px 14px 14px 0px;
+  border-radius: 0px 15px 15px 0px;
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
+  height: 100%;
+  width: 132px;
 }
 
 .search-icon {
@@ -192,7 +198,7 @@ h1 {
 }
 
 .filtre ul li {
-  border: 2px solid #c7c5c5c2;
+  border: 2px solid #d9d9d9;
   border-radius: 25px 25px 25px 25px;
   padding: 12px;
   cursor: pointer;
@@ -556,10 +562,9 @@ p.card-subtitle {
   .search-button {
     box-shadow: 0px 3px 2px #c1c1c1;
     border-radius: 30%;
-    min-width: 40px;
-    height: 40px;
     padding: 0;
-    font-size: 95%;
+    font-size: 16px;
+    width: 49px;
   }
 
   /**Modification affichage filtres "Economique, Familial, Romantique, Nos pépites**/
